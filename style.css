@@ -23,13 +23,13 @@ body {
 header {
     background-color: lightblue;
     display: flex;
+    padding: 10px;
     align-items: center;
     border-bottom: solid 5px dimgrey;
 }
 .block-center {
     max-width: 1250px;
     margin: auto;
-    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,6 +37,9 @@ header {
 }
 .logo img {
     width: 188px;
+}
+.logo {
+    padding-left: 30px;
 }
 nav ul {
     display: flex;
@@ -61,7 +64,7 @@ section img {
     height: 187px;
 }
 .items {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .items:nth-child(odd) {
     display: flex;
@@ -83,7 +86,7 @@ section img {
 h2 {
     color: #cf1a68;
     font-size: 30px;
-    margin-bottom: 20px;
+    margin: 50px 0 30px;
 }
 .items-col {
     display: flex;
@@ -187,6 +190,10 @@ footer img {
     .info {
         width: 100%;
     }
+    .menu__links-item {
+        font-size: 10px;
+
+    }
 }
 .menu {
     text-align: right;
@@ -283,6 +290,7 @@ footer img {
         padding: 10px 0;
         text-align: center;
         color: wheat;
+        font-size: 16px;
         transition: transform 0.2s linear;
     }
 
